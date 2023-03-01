@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimulatorApplication", "SimulatorApplication", "{CAB2A309-2E01-4AAC-A816-B7FEE460D15D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WipelotTask.Client", "SimulatorApplication\WipelotTask.Client\WipelotTask.Client.csproj", "{E34C9F46-C04E-4C13-99E8-C0A06F7910E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ListenerApplication", "ListenerApplication", "{363FE725-C00E-4F3B-905F-ED3658A441A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WipelotTask.Server", "ListenerApplication\WipelotTask.Server\WipelotTask.Server.csproj", "{C883B066-70EE-4D9A-9C81-A5EFCB666784}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WipelotTask.RabbitMQProducer", "ListenerApplication\WipelotTask.RabbitMQProducer\WipelotTask.RabbitMQProducer.csproj", "{BB9D49B1-DC77-4EF3-9914-CB580BD9C334}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalRServer", "SignalRServer", "{63DE7540-27BF-4109-80E3-60280DA4C94B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WipelotTask.SignalRHub", "SignalRServer\WipelotTask.SignalRHub\WipelotTask.SignalRHub.csproj", "{8A833F92-A983-4A58-943D-53D635FE9C7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E34C9F46-C04E-4C13-99E8-C0A06F7910E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34C9F46-C04E-4C13-99E8-C0A06F7910E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34C9F46-C04E-4C13-99E8-C0A06F7910E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34C9F46-C04E-4C13-99E8-C0A06F7910E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C883B066-70EE-4D9A-9C81-A5EFCB666784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C883B066-70EE-4D9A-9C81-A5EFCB666784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C883B066-70EE-4D9A-9C81-A5EFCB666784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C883B066-70EE-4D9A-9C81-A5EFCB666784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9D49B1-DC77-4EF3-9914-CB580BD9C334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9D49B1-DC77-4EF3-9914-CB580BD9C334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9D49B1-DC77-4EF3-9914-CB580BD9C334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9D49B1-DC77-4EF3-9914-CB580BD9C334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A833F92-A983-4A58-943D-53D635FE9C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A833F92-A983-4A58-943D-53D635FE9C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A833F92-A983-4A58-943D-53D635FE9C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A833F92-A983-4A58-943D-53D635FE9C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E34C9F46-C04E-4C13-99E8-C0A06F7910E9} = {CAB2A309-2E01-4AAC-A816-B7FEE460D15D}
+		{C883B066-70EE-4D9A-9C81-A5EFCB666784} = {363FE725-C00E-4F3B-905F-ED3658A441A8}
+		{BB9D49B1-DC77-4EF3-9914-CB580BD9C334} = {363FE725-C00E-4F3B-905F-ED3658A441A8}
+		{8A833F92-A983-4A58-943D-53D635FE9C7F} = {63DE7540-27BF-4109-80E3-60280DA4C94B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD482E7D-3491-4136-B2FD-885EE9F43099}
+	EndGlobalSection
+EndGlobal
